@@ -1,0 +1,28 @@
+AIM/ABSTRACT
+This project introduces a predictive system for targeting customers in term deposit marketing campaigns. By harnessing machine learning algorithms and customer data, the system forecasts whether a customer will respond positively ("yes") or negatively ("no") to a term deposit offer. Through analysis of customer attributes and historical data, the project aims to optimize campaign effectiveness, boost engagement, and improve conversion rates.
+
+OBJECTIVE
+Build a system that predicts whether a customer will subscribe to a term deposit.
+Use this system to select the right customers for marketing campaigns.
+Improve the efficiency of our marketing efforts and save costs.
+DATA AVAILABILITY
+A classic marketing bank dataset uploaded originally in the UCI Repository.
+The dataset gives you information about a marketing campaign of a financial institution.
+In which you will have to analyse and find ways to look for future strategies to improve future marketing campaigns for the bank.
+DESCRIPTION OF DATASET
+1.	age: Represents the age of the individual.
+2.	job: Describes the occupation or job of the person.
+3.	marital: Indicates the marital status of the person (e.g., married, single, divorced).
+4.	education: Represents the educational level of the person (e.g., primary, secondary, tertiary).
+5.	default: Indicates whether the person has credit in default ('yes', 'no', or 'unknown').
+6.	housing: Shows whether the person has a housing loan ('yes', 'no', or 'unknown').
+7.	loan: Indicates whether the person has a personal loan ('yes', 'no', or 'unknown').
+8.	contact: Describes the method of communication used to contact the person (e.g., 'cellular', 'telephone').
+9.	day: Indicates the day of the week of the last contact.
+10.	month: Represents the month of the last contact.
+11.	Duration: Represents the duration of the last contact in seconds
+12.	campaign: Indicates the number of contacts made during this campaign.
+13.	pdays: Describes the number of days since the person was last contacted or -1 if they were not previously contacted.
+14.	previous: Represents the number of contacts made before this campaign.
+15.	poutcome: Indicates the outcome of the previous marketing campaign.
+16.	deposit: The target variable, indicating whether the person subscribed to a term deposit ('yes' or 'no').
